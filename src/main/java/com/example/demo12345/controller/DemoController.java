@@ -10,7 +10,7 @@ public class DemoController {
     @GetMapping("/name")
     public String name(){
 
-        return "Krishna naam and Ram naam and Radha naam";
+        return "Krishna naam and Ram naam and Radha naam hai";
 
     }
 }
