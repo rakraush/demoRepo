@@ -13,4 +13,11 @@ public class DemoController {
         return "Krishna naam and Ram naam and Radha naam hai";
 
     }
+
+    @GetMapping("/vill")
+    public String vill(){
+
+        return "Vrindavan";
+
+    }
 }
