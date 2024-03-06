@@ -17,7 +17,7 @@ public class DemoController {
     @GetMapping("/vill")
     public String vill(){
 
-        return "Vrindavan";
+        return "main";
 
     }
 }
